@@ -126,18 +126,6 @@ data-ingestion-api
 
 ---
 
-## API Flow Diagram
-
-```mermaid
-flowchart TD
-    A[POST /ingest] --> B{Batch & Queue}
-    B --> C[Priority Queue]
-    C --> D[Process Batch (every 5s)]
-    D --> E[Simulate External API]
-    E --> F[Update Batch Status]
-    F --> G[GET /status/:ingestion_id]
-```
-
 ---
 
 ## Screenshots

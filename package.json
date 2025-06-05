@@ -1,0 +1,22 @@
+{
+  "name": "data-ingestion-api",
+  "version": "1.0.0",
+  "description": "A Data Ingestion API System with RESTful APIs for submitting data ingestion requests and checking their status.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^11.1.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.1"
+  }
+}

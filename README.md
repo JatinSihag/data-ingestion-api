@@ -70,7 +70,7 @@ data-ingestion-api
 
 1. **Clone the repo:**
    ```
-   git clone <repository-url>
+   (https://github.com/JatinSihag/data-ingestion-api)
    ```
 2. **Go to the project folder:**
    ```

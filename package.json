@@ -4,7 +4,7 @@
   "description": "A Data Ingestion API System with RESTful APIs for submitting data ingestion requests and checking their status.",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "node src/server.js",
     "test": "jest"
   },
   "dependencies": {
